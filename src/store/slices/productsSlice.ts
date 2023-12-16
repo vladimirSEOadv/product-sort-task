@@ -1,9 +1,9 @@
 import type { PayloadAction } from '@reduxjs/toolkit';
 import { createSlice } from '@reduxjs/toolkit';
-import { IProducts } from '../../types/types.ts';
+import { IProduct } from '@/types/types.ts';
 
 interface ProductState {
-	products: IProducts[];
+	products: IProduct[];
 	selectedProductsId: number[];
 }
 
@@ -34,7 +34,6 @@ export const productsSlice = createSlice({
 			].sort();
 		},
 		unSelectProduct: (state, action: PayloadAction<number>) => {
-			const productId = action.payload;
 			state.selectedProductsId = state.selectedProductsId.filter(
 				(productId) => productId !== action.payload,
 			);

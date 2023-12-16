@@ -1,5 +1,5 @@
 import React from 'react';
-import { IProduct } from '@/pages/HomePage.tsx';
+import { IProduct } from '@/types/types.ts';
 import { useAppDispatch } from '@/store/hooks.ts';
 import {
 	selectProduct,
