@@ -1,0 +1,41 @@
+.catalog-header {
+  margin-bottom: 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.selected-counter {
+  margin-right: 15px;
+  padding: 15px 15px 15px 0;
+  font-weight: bold;
+  text-align: start;
+}
+
+.header-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color:   transparent;
+
+  &:hover {
+    //border: 1px solid black;
+    //background-color: #12c2c2;
+    color: #12c2c2;
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+.list-item {
+
+}
+

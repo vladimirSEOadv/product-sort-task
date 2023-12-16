@@ -1,0 +1,27 @@
+.catalog-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.catalog-footer_btn {
+  display: inline-block;
+  padding: 14px 38px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: transform 100ms;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.save-btn {
+  background-color: #12c2c2;
+}
